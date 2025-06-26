@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>LinkedIn Auto-Connect</h2>
+  <input id="role" placeholder="Role (e.g. IT Recruiter)" />
+  <input id="company" placeholder="Company (e.g. Google)" />
+  <input id="location" placeholder="Location (e.g. India)" />
+  <textarea id="message" placeholder="Optional Message"></textarea>
+  <input id="limit" type="number" placeholder="Connections to send" />
+  <button id="start">Add Connections</button>
+  <button id="stop" style="background:#d9534f;margin-top:8px; color:#fff;">Stop</button>
+  <div id="connected-list"></div>
+  <h3>Referral Message Templates</h3>
+  <div id="template-list"></div>
+  <input id="new-company" placeholder="Company name (e.g. Google)" />
+  <textarea id="new-template" placeholder="Referral message for this company"></textarea>
+  <button id="add-template" style="background:#28a745; color:#fff; margin-bottom:10px;">Add/Update Template</button>
+  <button id="send-referrals" style="background:#ffc107; color:#333; margin-bottom:10px;">Send referral message to new connections</button>
+  <button id="stop-referrals" style="background:#d9534f; color:#fff; margin-bottom:10px;">Stop Sending Messages</button>
+  <script src="popup.js"></script>
+</body>
+</html> 
